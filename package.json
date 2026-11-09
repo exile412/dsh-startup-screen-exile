@@ -1,7 +1,7 @@
 {
   "name": "dsh-startup-screen-exile",
-  "version": "1.3.0-exile.3",
-  "description": "EXILE 版启动界面：黑幕 EXILE 标识 → 过曝 → 青色档案底板 → 交互授权序列。第一幕：不止AI，步入生活，改变生活 / MORE THAN AI. STEP INTO LIFE. CHANGE LIVES.；第二幕左上角：AI不止于现在更能改变未来。背景为绿色二进制数字雨（纵向为主、后段横向穿插）。",
+  "version": "1.3.0-exile.4",
+  "description": "EXILE startup screen for DeepSeek Harness: black curtain with the EXILE mark, over-exposed wash, warm paper plate, five-step interactive access sequence. Green binary-rain background (CRT scanlines, trails).",
   "keywords": [
     "dsh",
     "dsh-plugin",
@@ -19,12 +19,8 @@
   },
   "files": [
     "lib",
-    "test",
     "docs",
     "preview/index.html",
-    "open-preview.sh",
-    "打开预览.cmd",
-    "安装.cmd",
     "cordis.patch.yml",
     "README.md",
     "INSTALL.md",
@@ -32,18 +28,7 @@
     "AUDIO-FIELDS.md",
     "LICENSE"
   ],
-  "scripts": {
-    "test": "node test/smoke-host.mjs && node test/smoke-splash.mjs && node test/smoke-client.mjs && node test/smoke-desktop-boot.mjs"
-  },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/6shenhonghong9/dsh-startup-screen.git"
-  },
-  "bugs": {
-    "url": "https://github.com/6shenhonghong9/dsh-startup-screen/issues"
-  },
-  "homepage": "https://github.com/6shenhonghong9/dsh-startup-screen#readme",
   "engines": {
     "node": ">=20"
   },
@@ -58,5 +43,5 @@
       "platform": "web"
     }
   },
-  "author": "沈宏宏"
+  "author": "exile412 (modification) / 沈宏宏 (original)"
 }
