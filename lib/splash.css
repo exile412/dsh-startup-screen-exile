@@ -1196,10 +1196,10 @@
   color:var(--dsw-alias-label-tertiary);margin-top:6px;opacity:.85}
 
 /* ── EXILE 改造：第二幕左上角提示 ────────────────────────────────────── */
-.dsu-corner-msg{position:absolute;left:clamp(28px,4.5vw,76px);top:clamp(300px,38vh,430px);z-index:6;padding-left:14px;border-left:2px solid rgba(47,224,208,.55);
+.dsu-corner-msg{position:absolute;left:clamp(28px,4.5vw,76px);top:clamp(300px,38vh,430px);z-index:30;padding-left:14px;border-left:2px solid rgba(47,224,208,.55);
   opacity:0;transform:translateY(6px);transition:opacity .5s ease,transform .5s ease;pointer-events:none;max-width:min(46vw,560px)}
 .dsu-corner-msg.dsu-in{opacity:1;transform:none}
 .dsu-cm-zh{font-size:clamp(15px,1.35vw,20px);font-weight:600;letter-spacing:.02em;line-height:1.45;
-  color:var(--dsw-alias-label-primary);text-shadow:0 0 18px rgba(47,224,208,.28)}
+  color:rgba(20,32,38,.92);text-shadow:0 0 14px rgba(255,255,255,.65)}
 .dsu-cm-en{font-family:ui-monospace,Consolas,monospace;font-size:clamp(10px,.72vw,12px);letter-spacing:.16em;
-  color:var(--dsw-alias-label-tertiary);margin-top:8px}
+  color:rgba(30,48,56,.72);margin-top:8px}
